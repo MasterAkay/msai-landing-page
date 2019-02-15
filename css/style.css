@@ -1,0 +1,212 @@
+* {box-sizing: border-box;
+}
+body,html{
+height: 100%;
+
+font-family: Abril Fatface;
+background-color: black ;
+}
+
+#navbar {
+
+    z-index: 1;
+  overflow: hidden;
+  background-color: #504B43;
+top:0;
+  width: 100%;
+  position: fixed;
+  margin:0;
+}
+
+#navbar a {
+  float: right;
+
+  display: block;
+  color: #6F8F72;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #6F8F72;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: black;
+  color: white;
+}
+
+
+.gg{
+float: left;
+margin-top: 20vh;
+background-color: #6F8F72;
+width:33%;
+height:auto;
+text-align: center;
+
+
+}
+.flex-container {
+  display: flex;
+  margin-top: 10vh;
+  background-color: #6F8F72;
+  height:500px;
+
+
+}
+
+.flex-container > div {
+  background-color: #6F8F72;
+  margin: 5px;
+ padding: 20px;
+
+height: auto;
+  font-size: 18px;
+}
+
+.content{
+    background-color: black;
+    color: white;
+    height: auto;
+    font-size: 21px;
+    text-align: center;
+    border-style: solid;
+    border-color: #504B43;
+
+}
+
+
+.content2{
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    border-style: solid;
+    border-color: #504B43;
+}
+
+.flex-container2 {
+  display: flex;
+height:auto;
+margin: auto;
+  background-color: #8FD694;
+  border-style: solid;
+  border-color: #504B43;
+
+}
+
+.flex-container2 > div {
+  background-color: #8FD694;
+  margin: 5px;
+ padding: 20px;
+ border-style: solid;
+ border-color: #504B43;
+  font-size: 18px;
+
+
+}
+
+
+.hero-image {
+background-image:  url("../images/black.png");
+height:100vh;
+width: 100vw;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+border-style: solid;
+border-color: #504B43;
+}
+
+.hero-text {
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #8FD694 ;
+}
+
+.hero-text button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 10px 25px;
+color: black;
+font-size: 16px;
+background-color: #504B43;
+text-align: center;
+cursor: pointer;
+}
+
+.hero-text button:hover {
+background-color: #555;
+color: white;
+}
+
+footer{
+    left: 0;
+bottom: 0;
+height: 10%;
+width: 100%;
+background-color: #504B43;
+color: white;
+text-align: center;
+justify-content: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+ @media (max-width: 600px) {
+
+
+#navbar a {
+    float: none;
+    width: 100%;
+  }
+  .flex-container{
+      flex-wrap: wrap;
+      height:auto;
+
+  }
+  .flex-container > div {
+      width: 100%;
+      margin-top: 20vh;
+  }
+
+  .flex-container2{
+      flex-wrap: wrap;
+      height:auto;
+
+  }
+.flex-container2 > div {width: 100%;}
+ }
