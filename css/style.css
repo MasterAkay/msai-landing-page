@@ -42,7 +42,8 @@ body,html{
 
 .fig{
 
-    margin-top: 10vh;
+    margin-top: 20vh;
+    width:33%;
     background-color: #6F8F72;
     padding: 10px;
     height:auto;
@@ -61,6 +62,7 @@ body,html{
 .flex-container > figure {
     background-color: #6F8F72;
     margin: 5px;
+    margin-top: 10vh;
     padding: 10px;
 
     font-size: 15px;
@@ -107,8 +109,6 @@ body,html{
     border-color: #504B43;
     font-size: 18px;
 
-    text-overflow: ellipsis;
-    word-wrap: break-word;
 
 
 }
@@ -195,20 +195,21 @@ footer{
         width: 100%;
     }
     .flex-container{
-        flex-wrap: wrap;
+        margin-top: 30vh;
+        flex-direction: column;
         height:auto;
 
     }
-    .flex-container__figure {
-
+    .flex-container>figure {
+        padding-top: 5vh;
         width: 100%;
-        margin-top: 20vh;
+
     }
 
     .flex-container2{
-        flex-wrap: wrap;
+        flex-direction: column;
         height:auto;
 
     }
-    .flex-container2__figure {width: 100%;}
+    .flex-container2>figure {width: 100%;}
 }
