@@ -40,7 +40,7 @@ top:0;
 }
 
 
-.gg{
+.fig{
 
 margin-top: 10vh;
 background-color: #6F8F72;
@@ -115,39 +115,39 @@ text-align: left;
 
 
 .hero-image {
-background-image:  url("../images/black.png");
-height:100vh;
-width: 100vw;
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-border-style: solid;
-border-color: #504B43;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/black.png");
+  height: 100vh;
+  width:100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
-text-align: center;
-position: relative;
-transform: translate(-50%, -50%);
-color: #8FD694 ;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .hero-text button {
-border: none;
-outline: 0;
-display: inline-block;
-padding: 10px 25px;
-color: black;
-font-size: 16px;
-background-color: #504B43;
-text-align: center;
-cursor: pointer;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
 }
 
 .hero-text button:hover {
-background-color: #555;
-color: white;
+  background-color: #555;
+  color: white;
 }
 
 footer{
