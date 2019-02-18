@@ -9,6 +9,8 @@ body,html{
 }
 nav{
     display: flex;
+    align-items:center;
+    
 }
 #navbar {
 
