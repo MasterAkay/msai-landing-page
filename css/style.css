@@ -1,4 +1,5 @@
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 body,html{
 height: 100%;
@@ -40,31 +41,31 @@ top:0;
 
 
 .gg{
-float: left;
-margin-top: 20vh;
-background-color: #6F8F72;
-width:33%;
-height:auto;
-text-align: center;
 
+margin-top: 10vh;
+background-color: #6F8F72;
+ padding: 10px;
+height:auto;
+text-align: left;
 
 }
 .flex-container {
   display: flex;
-  margin-top: 10vh;
+  margin-top: 5vh;
   background-color: #6F8F72;
-  height:500px;
+  height:auto;
 
 
 }
 
-.flex-container > div {
+.flex-container > figure {
   background-color: #6F8F72;
   margin: 5px;
- padding: 20px;
+   padding: 10px;
 
-height: auto;
-  font-size: 18px;
+   font-size: 15px;
+   word-wrap: break-word;
+
 }
 
 .content{
@@ -72,7 +73,7 @@ height: auto;
     color: white;
     height: auto;
     font-size: 21px;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     border-color: #504B43;
 
@@ -83,28 +84,31 @@ height: auto;
     background-color: black;
     color: white;
     font-size: 21px;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     border-color: #504B43;
 }
 
 .flex-container2 {
   display: flex;
-height:auto;
-margin: auto;
+
+  margin: auto;
   background-color: #8FD694;
   border-style: solid;
   border-color: #504B43;
 
 }
 
-.flex-container2 > div {
+.flex-container2>figure {
   background-color: #8FD694;
   margin: 5px;
  padding: 20px;
  border-style: solid;
  border-color: #504B43;
   font-size: 18px;
+
+  text-overflow: ellipsis;
+  word-wrap: break-word;
 
 
 }
@@ -125,8 +129,6 @@ border-color: #504B43;
 .hero-text {
 text-align: center;
 position: relative;
-top: 50%;
-left: 50%;
 transform: translate(-50%, -50%);
 color: #8FD694 ;
 }
@@ -198,7 +200,8 @@ justify-content: center;
       height:auto;
 
   }
-  .flex-container > div {
+  .flex-container__figure {
+
       width: 100%;
       margin-top: 20vh;
   }
@@ -208,5 +211,5 @@ justify-content: center;
       height:auto;
 
   }
-.flex-container2 > div {width: 100%;}
+.flex-container2__figure {width: 100%;}
  }
