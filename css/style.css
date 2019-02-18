@@ -41,7 +41,7 @@ nav{
 }
 
 
-.fig{
+.flex-container__figure1{
 
     margin-top: 20vh;
     width:33%;
@@ -92,7 +92,16 @@ nav{
     border-style: solid;
     border-color: #504B43;
 }
+.flex-container__figure2{
 
+    margin-top: 20vh;
+    width:33%;
+    background-color: #6F8F72;
+    padding: 0.625rem;
+    height:auto;
+    text-align: left;
+
+}
 .flex-container2 {
     display: flex;
 
